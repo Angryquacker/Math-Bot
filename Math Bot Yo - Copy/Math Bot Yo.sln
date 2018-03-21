@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math Bot Yo", "Math Bot Yo\Math Bot Yo.csproj", "{EF0E17D2-62FD-451F-A336-9305BC2D5CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1C7D623-3BC3-41B2-AF90-C2426A22603B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF0E17D2-62FD-451F-A336-9305BC2D5CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0E17D2-62FD-451F-A336-9305BC2D5CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0E17D2-62FD-451F-A336-9305BC2D5CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0E17D2-62FD-451F-A336-9305BC2D5CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A3D17A-387A-416D-96BB-8C3619C6E062}
+	EndGlobalSection
+EndGlobal
