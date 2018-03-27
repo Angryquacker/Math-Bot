@@ -23,4 +23,6 @@ round - Return a given number to the nearest integer (One Number Paramater) I.e.
 
 D->P - Returns a given decimal number in percentage form I.e. !Math D->P .934 Output: 93.4%
 
+Pi - Returns x amount of digits of Pi (One Integer Paramamater) I.e. !Math Pi 3
+
 *New Commands Coming Soon*
