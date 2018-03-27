@@ -19,7 +19,7 @@ namespace Math_Bot_Yo
         public async Task StartAsync()
         {
             _client = new DiscordSocketClient();
-            await _client.LoginAsync(TokenType.Bot, "NDI1Nzg1OTAwMTgyNjY3Mjc1.DZM2Fw.Sw371CwF2UUG115I3o-L7WzBgJE");
+            await _client.LoginAsync(TokenType.Bot, "YOU NO GET KEY");
             await _client.StartAsync();
 
             _handler = new CommandHandler(_client);
