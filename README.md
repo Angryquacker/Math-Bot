@@ -21,4 +21,6 @@ exponent - Returns the value of a number risen to a given power (Two Number Para
 
 round - Return a given number to the nearest integer (One Number Paramater) I.e. !Math round 12.567
 
+D->P - Returns a given decimal number in percentage form I.e. !Math D->P .934 Output: 93.4%
+
 *New Commands Coming Soon*
