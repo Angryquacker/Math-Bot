@@ -12,8 +12,18 @@ namespace Math_Bot_Yo.Modules
         [Command("sqrt")]
         public async Task Square(float num)
         {
-            var sqrt = Convert.ToString(Math.Sqrt(num));
-            await Context.Channel.SendMessageAsync("The Square Root is: " + sqrt);
+            if (num >= 0)
+            {
+                var sqrt = Convert.ToString(Math.Sqrt(num));
+
+                await Context.Channel.SendMessageAsync("The Square Root is: " + sqrt);
+            } else
+            {
+                var iSqrt = Convert.ToString(Math.Sqrt((num * -1)));
+
+                await Context.Channel.SendMessageAsync("The Square Root is: " + iSqrt + " i");
+            }
+            
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Math_Bot_Yo.Modules
         [Command("help")]
         public async Task Help()
         {
-            string[] com = { "cosine", "absolute", "sqrt", "exponent", "round" , "help"};
+            string[] com = { "cosine", "absolute", "sqrt", "exponent", "round", "help", "D->P", "Pi", "sine", "tangent", "pythag", "SquareA", "SquareV", "SquareP", "SquareSA", "helpF", "formula"};
             await Context.Channel.SendMessageAsync("Commands are as follows: " + string.Join(", ", com));
         }
     }
