@@ -19,7 +19,7 @@ namespace Math_Bot_Yo.Modules
                 case "square":
                     pic = "https://imgur.com/iIzYjik";
                     break;
-                case "reactangle":
+                case "rectangle":
                     pic = "https://imgur.com/R3OpaTH";
                     break;
                 case "circle":
